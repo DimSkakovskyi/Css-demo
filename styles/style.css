@@ -3,4 +3,19 @@
   background-position: top right, center;
   background-repeat: no-repeat, repeat;
   background-attachment: fixed;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.footer {
+  background-color: brown;
 }
