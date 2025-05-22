@@ -41,6 +41,22 @@
   color: bisque;
 }
 
+.article-title {
+  font-family: 'Georgia', serif;          
+  font-size: 28px;
+  color: #800000;                          
+  border-bottom: 2px solid #800000;     
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  text-decoration: none; 
+}
+
+.article-preview {
+  background-color: #f5f0dc; 
+  padding: 10px;
+  border-radius: 5px;
+}
+
 .title {
   padding-top: 20px;
   padding-left: 20px;
@@ -77,10 +93,35 @@
 }
 
 .menu-link:hover {
-  background-color: #8d0808;   /* Колір при наведенні */
+  background-color: #8d0808;   
   color: bisque;
 }
 
 .catalog-ul {
   margin: 0;
+}
+
+.continue-reading {
+  color: #0066cc;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.continue-reading:hover {
+  color: brown;                      
+  text-decoration: none;  
+}
+
+.comments-link {
+  color: gray;
+  text-decoration: none;
+  font-style: italic;
+}
+
+.article {
+  text-align: center;
+  font-size: 36px;
+  color: bisque;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
