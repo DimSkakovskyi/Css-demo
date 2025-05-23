@@ -33,41 +33,47 @@
   </div>
 
   <div class="container in-main">
-    <div class="address">
-      <h2 class="p">Адреса</h2>
+    <div class="contact-section">
+      <h2>Адреса</h2>
       <p>Кільцева дорога, 1, Київ, 02000</p>
     </div>
 
-    <div class="map">
+    <div class="contact-section">
       <h2>Наше місцезнаходження на карті</h2>
-      <img src="../img/Карта.png" alt="Карта.png" width="700">
+      <img src="../img/Карта.png" alt="Карта.png" class="contact-map">
     </div>
 
     <form class="form" action="https://tests.fomenko.top/echo/index.php" method="GET">
-      <fieldset>
-        <legend>Зв'яжіться з нами</legend>
-        <div>
-          <label for="name">Ім'я</label>
-          <input name="name" type="text" id="name" placeholder="Ім'я">
+      <fieldset class="fieldset">
+        <legend class="legend">Зв'яжіться з нами</legend>
+
+        <div class="form-group">
+          <label for="name" class="label">Ім'я</label>
+          <input name="name" type="text" id="name" class="input" placeholder="Ім'я">
         </div>
-        <div>
-          <label for="phone">Номер телефону</label>
-          <input name="phone" type="tel" id="phone" placeholder="Веддіть свій номер телефону">
+
+        <div class="form-group">
+          <label for="phone" class="label">Номер телефону</label>
+          <input name="phone" type="tel" id="phone" class="input" placeholder="Введіть свій номер телефону">
         </div>
-        <div>
-          <label for="email">Email</label>
-          <input name="email" type="email" id="email" placeholder="Введіть свій email">
+
+        <div class="form-group">
+          <label for="email" class="label">Email</label>
+          <input name="email" type="email" id="email" class="input" placeholder="Введіть свій email">
         </div>
-        <div>
-          <label for="question">Запитання</label>
-          <textarea name="question" id="question" cols="30" rows="10" placeholder="Задайте питання"></textarea>
+
+        <div class="form-group">
+          <label for="question" class="label">Запитання</label>
+          <textarea name="question" id="question" class="input" placeholder="Задайте питання" rows="6"></textarea>
         </div>
       </fieldset>
-      <div>
-        <button type="submit">Зареєструватися</button>
-        <button type="reset">Очистити форму</button>
+
+      <div class="form-group">
+        <button type="submit" class="btn">Надіслати</button>
+        <button type="reset" class="btn">Очистити форму</button>
       </div>
     </form>
+
   </div>
 
   <footer class="footer">
